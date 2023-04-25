@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\yugioh_card_search.props" />
+</Project>

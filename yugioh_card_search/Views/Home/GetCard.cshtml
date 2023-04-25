@@ -1,0 +1,10 @@
+﻿@using static yugioh_card_search.Models.CardModel;
+@model Rootobject
+
+@foreach (var item in Model.data)
+{
+    <h1>@item.card_prices</h1>
+    <h1>@item.card_images[0].image_url</h1>
+    <h1>@item.desc</h1>
+    <br />
+}
