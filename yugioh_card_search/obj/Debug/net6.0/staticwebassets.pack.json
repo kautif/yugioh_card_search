@@ -5,8 +5,20 @@
       "PackagePath": "staticwebassets\\yugioh_card_search.bundle.scp.css"
     },
     {
+      "Id": "C:\\repos\\yugioh_card_search\\yugioh_card_search\\wwwroot\\css\\card.css",
+      "PackagePath": "staticwebassets\\css\\card.css"
+    },
+    {
+      "Id": "C:\\repos\\yugioh_card_search\\yugioh_card_search\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
       "Id": "C:\\repos\\yugioh_card_search\\yugioh_card_search\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\repos\\yugioh_card_search\\yugioh_card_search\\wwwroot\\css\\squealer.embossed.ttf",
+      "PackagePath": "staticwebassets\\css\\squealer.embossed.ttf"
     },
     {
       "Id": "C:\\repos\\yugioh_card_search\\yugioh_card_search\\wwwroot\\favicon.ico",

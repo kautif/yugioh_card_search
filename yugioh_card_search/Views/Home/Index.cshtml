@@ -3,13 +3,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link href="~/css/index.css" rel="stylesheet" type="text/css"/>
     <title>YGO Card Finder</title>
 </head>
 <body>
-    <h1>Enter the term you would like to search</h1>
-    <form asp-action="GetCard" asp-controller="Home" method="post">
-        <input type="text" name="search" />
-        <input type="submit" value="Submit" />
+    <h1 class="card-search__title text-center">Yu-gi-oh Card Search</h1>
+    <form asp-action="GetCard" asp-controller="Home" method="post" class="text-center">
+        <input class="form-control-lg col-12" type="text" name="search" placeholder="Enter search term" />
+        <input class="btn btn-primary mt-4 btn-lg" type="submit" value="Submit" />
     </form>
 </body>
 </html>

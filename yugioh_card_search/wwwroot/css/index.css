@@ -1,0 +1,24 @@
+﻿@font-face {
+    font-family: 'squealer';
+    src: url('squealer.embossed.ttf') format('truetype');
+}
+
+body {
+    background-image: url("https://www.nicepng.com/png/detail/273-2735647_hand-gorz-the-emissary-of-darkness-pgl2-en081.png");
+    background-size: 100% 100%;
+    height: 100vh;
+    overflow-y: hidden;
+    background-repeat: no-repeat;
+    background-position-y: 312px;
+}
+
+header {
+    position: fixed !important;
+    width: 100% !important;
+}
+
+.card-search__title {
+    font-family: squealer;
+    font-size: 5em;
+    padding-top: 10%;
+}

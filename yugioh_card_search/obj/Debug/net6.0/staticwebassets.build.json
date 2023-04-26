@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hqkwQmKF8eL+pux8rY6221z+7grE9rMekJ+ZJ9pAkrE=",
+  "Hash": "rO9/P1smE6Owj4gvKVp4lds7kNl1m5I+F5q9sUutnEQ=",
   "Source": "yugioh_card_search",
   "BasePath": "_content/yugioh_card_search",
   "Mode": "Default",
@@ -51,6 +51,40 @@
       "OriginalItemSpec": "C:\\repos\\yugioh_card_search\\yugioh_card_search\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\yugioh_card_search.bundle.scp.css"
     },
     {
+      "Identity": "C:\\repos\\yugioh_card_search\\yugioh_card_search\\wwwroot\\css\\card.css",
+      "SourceId": "yugioh_card_search",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\repos\\yugioh_card_search\\yugioh_card_search\\wwwroot\\",
+      "BasePath": "_content/yugioh_card_search",
+      "RelativePath": "css/card.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\card.css"
+    },
+    {
+      "Identity": "C:\\repos\\yugioh_card_search\\yugioh_card_search\\wwwroot\\css\\index.css",
+      "SourceId": "yugioh_card_search",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\repos\\yugioh_card_search\\yugioh_card_search\\wwwroot\\",
+      "BasePath": "_content/yugioh_card_search",
+      "RelativePath": "css/index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\index.css"
+    },
+    {
       "Identity": "C:\\repos\\yugioh_card_search\\yugioh_card_search\\wwwroot\\css\\site.css",
       "SourceId": "yugioh_card_search",
       "SourceType": "Discovered",
@@ -66,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\repos\\yugioh_card_search\\yugioh_card_search\\wwwroot\\css\\squealer.embossed.ttf",
+      "SourceId": "yugioh_card_search",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\repos\\yugioh_card_search\\yugioh_card_search\\wwwroot\\",
+      "BasePath": "_content/yugioh_card_search",
+      "RelativePath": "css/squealer.embossed.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\squealer.embossed.ttf"
     },
     {
       "Identity": "C:\\repos\\yugioh_card_search\\yugioh_card_search\\wwwroot\\favicon.ico",

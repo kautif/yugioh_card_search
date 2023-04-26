@@ -29,17 +29,25 @@ namespace yugioh_card_search.Controllers
         public IActionResult GetCard(string search)
         {
             var root = GetCardInfo(search);
+            Console.WriteLine(root);
             return View(root);
         }
 
         public Rootobject GetCardInfo(string searchTerm) 
         {
-            var client = new HttpClient();
-            var ygoURL = $"https://db.ygoprodeck.com/api/v7/cardinfo.php?fname={searchTerm}";
-            var ygoResponse = client.GetStringAsync(ygoURL).Result;
-            Rootobject rootObject = JsonConvert.DeserializeObject<Rootobject>(ygoResponse);
-            Console.WriteLine(rootObject);
-            return rootObject;
+            try 
+            {
+                var client = new HttpClient();
+                var ygoURL = $"https://db.ygoprodeck.com/api/v7/cardinfo.php?fname={searchTerm}";
+                var ygoResponse = client.GetStringAsync(ygoURL).Result;
+                Rootobject rootObject = JsonConvert.DeserializeObject<Rootobject>(ygoResponse);
+                return rootObject;
+            } catch (Exception ex) 
+            {
+                // Handle the exception here, for example by logging the error or returning a default value
+                Console.WriteLine($"An error occurred: {ex.Message}");
+                return null;
+            }
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
