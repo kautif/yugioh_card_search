@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\repos\\yugioh_card_search\\yugioh_card_search\\wwwroot\\img\\yugioh_cards.jpg",
+      "PackagePath": "staticwebassets\\img\\yugioh_cards.jpg"
+    },
+    {
       "Id": "C:\\repos\\yugioh_card_search\\yugioh_card_search\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

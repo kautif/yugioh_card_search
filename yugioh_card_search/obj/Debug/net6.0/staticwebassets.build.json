@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rO9/P1smE6Owj4gvKVp4lds7kNl1m5I+F5q9sUutnEQ=",
+  "Hash": "iqoa1ZY2nzvd8afNY0+CMhTP6y9i0qvciDx4UCPgRWY=",
   "Source": "yugioh_card_search",
   "BasePath": "_content/yugioh_card_search",
   "Mode": "Default",
@@ -134,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\repos\\yugioh_card_search\\yugioh_card_search\\wwwroot\\img\\yugioh_cards.jpg",
+      "SourceId": "yugioh_card_search",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\repos\\yugioh_card_search\\yugioh_card_search\\wwwroot\\",
+      "BasePath": "_content/yugioh_card_search",
+      "RelativePath": "img/yugioh_cards.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\yugioh_cards.jpg"
     },
     {
       "Identity": "C:\\repos\\yugioh_card_search\\yugioh_card_search\\wwwroot\\js\\site.js",

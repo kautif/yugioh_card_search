@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url("https://www.nicepng.com/png/detail/273-2735647_hand-gorz-the-emissary-of-darkness-pgl2-en081.png");
+    background-image: url("/img/yugioh_cards.jpg");
     background-size: 100% 100%;
     height: 100vh;
     overflow-y: hidden;
@@ -21,4 +21,19 @@ header {
     font-family: squealer;
     font-size: 5em;
     padding-top: 10%;
+}
+
+@media (max-width: 1023px) and (min-width: 767px) 
+
+{
+    body {
+        background-size: 100% 58% !important;
+    }
+}
+
+@media (max-width: 766px) and (min-width: 320px) {
+    body {
+        background-size: 100% 43%;
+        background-position-y: 369px;
+    }
 }
